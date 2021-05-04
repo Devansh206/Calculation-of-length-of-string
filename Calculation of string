@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    char name[] = "devanshisaboy";
+    int a,b;
+    a=strlen(name);
+    b=strlen("nameisboyofname");
+    printf("string=%s has length=%d\n",name,a);
+    printf("string=%s has length=%d\n","nameisboyofname",b);
+    return 0;
+}
